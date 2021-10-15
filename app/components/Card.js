@@ -1,0 +1,27 @@
+export function Card(props) {
+    let { name, flags, population, region, cca2} = props,
+        capital = props.capital || "No capital";
+
+    // document.addEventListener("click", e => {
+    //     if (!e.target.matches("#detail")) return false;
+    //     localStorage.setItem("cca2", e.target.dataset.cca2);
+        
+    // });
+
+
+    return `
+        <figure class="card">
+            <a href="#/${cca2}">
+                <img id="detail" src="${flags.svg}" alt="${name.common}" data-cca2="${cca2}">
+            </a>
+            <div class="card-info">
+                <a href="#/${cca2}" data-cca2="${cca2}">
+                    <h4 id="detail" data-cca2="${cca2}">${name.common}</h4>
+                </a>
+                <p><span class="info">Population: </span>${population}</p>
+                <p><span class="info">Region: </span>${region}</p>
+                <p><span class="info">Capital: </span>${capital[0]}</p>
+            </div>
+        </figure>
+    `;
+}
