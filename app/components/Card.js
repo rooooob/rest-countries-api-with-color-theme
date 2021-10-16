@@ -12,7 +12,7 @@ export function Card(props) {
     // });
 
     return `
-        <figure class="card">
+        <figure class="card" data-el>
             <a href="#/${cca2}">
                 <img class="v-detail" src="${flags.svg}" alt="${name.common}" data-cca2="${cca2}">
             </a>

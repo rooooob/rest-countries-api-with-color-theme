@@ -349,3 +349,29 @@ select {
         margin-right: .3rem;
     }
 }
+
+/* THEME */
+
+.light-bg {
+    background-color: var(--light-background);
+    color: var(--light-text);
+}
+
+.light-el {
+    background-color: var(--dark-text-light-elements);
+    color: var(--light-text);
+    box-shadow: 1px 1px 1px 1px rgba(58, 58, 58, .3);
+}
+
+.light-el * {
+    color: var(--light-text);
+}
+
+.light-select {
+    background-color: var(--dark-text-light-elements);
+    color: var(--light-text);
+}
+
+.light-input::placeholder {
+    color: var(--light-text);
+}

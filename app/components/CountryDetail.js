@@ -37,7 +37,7 @@ export function CountryDetail(props) {
 
     return `
         <div class="detail-container">
-            <a href="#/" class="back"><i class="uil uil-previous"></i>  Back</a>
+            <a href="#/" class="back" data-el=""><i class="uil uil-previous"></i>  Back</a>
             <div class="country-detail">
                 <img class="d-img" src="${flags.svg}" alt="${name.common}">
                 <div class="country-desc">

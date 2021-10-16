@@ -7,9 +7,11 @@ export function Search() {
     `
     $form.appendChild($search);
     $searchDiv.appendChild($form);
+    $searchDiv.dataset.el = "";
     $searchDiv.classList.add("search-div");
     $search.type = "search";
     $search.name = "search";
+    $search.dataset.input = "";
     $search.placeholder = "Search for a country...";
 
     if (location.hash.includes("search")) {

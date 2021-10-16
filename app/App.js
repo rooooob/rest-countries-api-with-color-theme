@@ -13,7 +13,4 @@ export function App() {
     $root.appendChild(Loader());
 
     Router();
-    
-    Theme();
-
 }

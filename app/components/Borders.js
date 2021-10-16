@@ -9,6 +9,6 @@ export function Borders(props) {
     // })
     
     return `
-        <a class="b-box v-detail" href="#/${borderContent}" data-cca2="${cca2}">${borderContent}</a>
+        <a class="b-box v-detail" href="#/${borderContent}" data-el="" data-cca2="${cca2}">${borderContent}</a>
     `
 }

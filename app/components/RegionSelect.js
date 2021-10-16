@@ -1,8 +1,9 @@
 export function RegionSelect(props) {
     const $select = document.createElement("div");
+    $select.dataset.el = "";
     $select.classList.add("region-select");
     $select.innerHTML = `
-        <select class="select">
+        <select class="select" data-select="">
             <option value="" selected disabled>Filter by region</option>
             <option class="option" value="africa">Africa</option>
             <option class="option" value="americas">Americas</option>
