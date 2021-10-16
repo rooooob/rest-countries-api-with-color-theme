@@ -12,11 +12,11 @@ export function Card(props) {
     return `
         <figure class="card">
             <a href="#/${cca2}">
-                <img id="detail" src="${flags.svg}" alt="${name.common}" data-cca2="${cca2}">
+                <img class="v-detail" src="${flags.svg}" alt="${name.common}" data-cca2="${cca2}">
             </a>
             <div class="card-info">
                 <a href="#/${cca2}" data-cca2="${cca2}">
-                    <h4 id="detail" data-cca2="${cca2}">${name.common}</h4>
+                    <h4 class="v-detail" data-cca2="${cca2}">${name.common}</h4>
                 </a>
                 <p><span class="info">Population: </span>${population}</p>
                 <p><span class="info">Region: </span>${region}</p>

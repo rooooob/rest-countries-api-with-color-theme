@@ -35,10 +35,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Git Hub](https://github.com/rooooob/rest-countries-api-with-color-theme)
+- Live Site URL: [Git Hub Pages](https://rooooob.github.io/rest-countries-api-with-color-theme/)
 
-## My process
+<!-- ## My process -->
 
 ### Built with
 
@@ -52,8 +52,8 @@ Users should be able to:
 - [Styled Components](https://styled-components.com/) - For styles -->
 - SPA with Vanilla JS
 
-
-### What I learned
+<!-- 
+### What I learned -->
 
 <!-- ```html
 <h1>Some HTML code I'm proud of</h1>
@@ -68,18 +68,18 @@ const proudOfThisFunc = () => {
   console.log('🎉')
 }
 ``` -->
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-
-### Continued development
+<!-- 
+If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more. -->
 
 
+<!-- ### Continued development -->
 
-### Useful resources
+
+
+<!-- ### Useful resources
 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. -->
 
 
 ## Author
@@ -87,6 +87,6 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 - Website - [Rob](https://github.com/rooooob)
 - Frontend Mentor - [Rob](https://www.frontendmentor.io/profile/rooooob)
 
-
-## Acknowledgments
+<!-- 
+## Acknowledgments -->
 

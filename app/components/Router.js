@@ -66,7 +66,7 @@ export  async function Router() {
     }
     
     document.addEventListener("click", e => {
-        if (!e.target.matches("#detail")) return false;
+        if (!e.target.matches(".v-detail")) return false;
 
         localStorage.setItem("cca2", e.target.dataset.cca2);
     })

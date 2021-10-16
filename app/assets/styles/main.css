@@ -38,7 +38,7 @@ a {
     cursor: pointer;
 }
 
-#detail:hover {
+.v-detail:hover {
     opacity: .5;
     transition: .4s;
 }
@@ -104,18 +104,16 @@ header h2, header p {
 }
 
 .card {
-    width: 200px;
-    height: 260px;
+    width: 260px;
+    height: 330px;
     margin: 1.3rem auto;
     background-color: var(--dark-elements);
     border-radius: 5px;
 }
 
 .card img {
-    height: auto;
-    width: auto;
-    max-height: 105px;
-    min-width: 200px;
+    height: 150px;
+    width: 260px;
     object-fit: cover;
     border-radius: inherit;
     border-bottom-left-radius: 0;
