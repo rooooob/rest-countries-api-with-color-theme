@@ -4,7 +4,7 @@ import { Main } from "./components/Main.js";
 import { Router } from "./components/Router.js";
 import { Theme } from "./helpers/theme.js";
 
-export  function App() {
+export function App() {
     const $root = document.getElementById("root");
 
     $root.innerHTML = null;
@@ -15,4 +15,5 @@ export  function App() {
     Router();
     
     Theme();
+
 }

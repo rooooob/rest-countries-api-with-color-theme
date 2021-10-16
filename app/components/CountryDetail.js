@@ -4,7 +4,8 @@ import { Borders } from "./Borders.js";
 import { numberFormat } from "../helpers/number_format.js";
 
 export function CountryDetail(props) {
-    let { name, languages, population, region, subregion, tld, currencies, flags, borders } = props,
+    let { name, languages, population, region, subregion, tld, currencies, flags } = props,
+        borders = props.borders || false,
         capital = props.capital || "None",
         offName = name.nativeName[Object.keys(name.nativeName)[0]].official,
         forPopulation = numberFormat(population),
@@ -19,17 +20,20 @@ export function CountryDetail(props) {
         langsText += `${el}${Object.values(languages).indexOf(el) !== Object.values(languages).length - 1 ? "," : ""} `;
     });
 
-    borders.forEach(async el =>  {
-        let countryURL = `${api.CODE}${el}`,
-            bordersF = "";
-        await ajax({
-            url: countryURL,
-            cbSuccess: data => {
-                bordersF += Borders(data[0]);
-            }
+    if (borders) {
+        borders.forEach(async el =>  {
+            let countryURL = `${api.CODE}${el}`,
+                bordersF = "";
+            await ajax({
+                url: countryURL,
+                cbSuccess: data => {
+                    bordersF += Borders(data[0]);
+                }
+            })
+            document.querySelector(".borders-btn").innerHTML += bordersF;
         })
-        document.querySelector(".borders-btn").innerHTML += bordersF;
-    })
+
+    } 
 
     return `
         <div class="detail-container">
