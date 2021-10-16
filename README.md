@@ -37,6 +37,65 @@ Users should be able to:
 
 - Solution URL: [Git Hub](https://github.com/rooooob/rest-countries-api-with-color-theme)
 - Live Site URL: [Git Hub Pages](https://rooooob.github.io/rest-countries-api-with-color-theme/)
+<<<<<<< HEAD
+=======
+
+<!-- ## My process -->
+
+### Built with
+
+<!-- - Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Styled Components](https://styled-components.com/) - For styles -->
+- SPA with Vanilla JS
+
+<!-- 
+### What I learned -->
+
+<!-- ```html
+<h1>Some HTML code I'm proud of</h1>
+```
+```css
+.proud-of-this-css {
+  color: papayawhip;
+}
+```
+```js
+const proudOfThisFunc = () => {
+  console.log('🎉')
+}
+``` -->
+<!-- 
+If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more. -->
+
+
+<!-- ### Continued development -->
+
+
+
+<!-- ### Useful resources
+
+- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. -->
+
+
+## Author
+
+- Website - [Rob](https://github.com/rooooob)
+- Frontend Mentor - [Rob](https://www.frontendmentor.io/profile/rooooob)
+
+<!-- 
+## Acknowledgments -->
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+>>>>>>> 1c6d1a95f360ac518b2ffac6da5d5689ff02f33e
 
 <!-- ## My process -->
 
