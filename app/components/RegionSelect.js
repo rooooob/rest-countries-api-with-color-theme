@@ -13,13 +13,12 @@ export function RegionSelect(props) {
         <i class="uil uil-angle-down"></i>
     
     `
-    // document.addEventListener("click", e => {
-    //     if (!e.target.matches(".option")) return false; 
+    document.addEventListener("change", e => {
+        if (!e.target.matches(".select")) return false; 
 
-    //     localStorage.setItem("region", e.target.value);
-    //     location.hash = `#/region/${localStorage.getItem("region")}`;
-    // });
-
+        localStorage.setItem("region", e.target.value);
+        location.hash = `#/region/${localStorage.getItem("region")}`;
+    });
 
     return $select;
 }

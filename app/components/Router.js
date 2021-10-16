@@ -70,13 +70,6 @@ export  async function Router() {
 
         localStorage.setItem("cca2", e.target.dataset.cca2);
     })
-    
-    document.addEventListener("click", e => {
-        if (!e.target.matches(".option")) return false; 
-
-        localStorage.setItem("region", e.target.value);
-        location.hash = `#/region/${localStorage.getItem("region")}`;
-    });
 
 
     $loader.style.display = "none";
