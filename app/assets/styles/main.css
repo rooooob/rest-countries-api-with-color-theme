@@ -216,7 +216,7 @@ select {
 .country-detail {
     display: flex;
     margin-top: 5rem;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .d-img {
@@ -289,6 +289,15 @@ select {
         width: 90%;
     }
 
+    .card {
+        width: 350px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 180px;
+    }
+
     .region-select {
         width: 50%;
         margin-left: 1rem;
@@ -306,6 +315,10 @@ select {
 
     .country-desc {
         margin-left: 0;
+    }
+
+    .country-detail {
+        flex-direction: column;
     }
 
     .country-sm-desc {
