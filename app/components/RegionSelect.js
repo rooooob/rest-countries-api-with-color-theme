@@ -15,6 +15,7 @@ export function RegionSelect(props) {
     `
     document.addEventListener("click", e => {
         if (e.target.matches("option")) {
+            alert("Test")
             localStorage.setItem("region", e.target.value);
             location.hash = `#/region/${localStorage.getItem("region")}`;
         }
