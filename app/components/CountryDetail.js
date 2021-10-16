@@ -1,11 +1,13 @@
 import api from "../helpers/api_endpoints.js";
 import { ajax } from "../helpers/ajax.js";
 import { Borders } from "./Borders.js";
+import { numberFormat } from "../helpers/number_format.js";
 
 export function CountryDetail(props) {
     let { name, languages, population, region, subregion, tld, currencies, flags, borders } = props,
         capital = props.capital || "None",
         offName = name.nativeName[Object.keys(name.nativeName)[0]].official,
+        forPopulation = numberFormat(population),
         currText = "",
         langsText = "";
 
@@ -39,7 +41,7 @@ export function CountryDetail(props) {
                     <div class="country-sm-desc">
                         <div class="cd-left">
                             <p><span class="info">Native Name: </span>${offName}</p>
-                            <p><span class="info">Population: </span>${population}</p>
+                            <p><span class="info">Population: </span>${forPopulation}</p>
                             <p><span class="info">Region: </span>${region}</p>
                             <p><span class="info">Sub Region: </span>${subregion}</p>
                             <p><span class="info">Capital: </span>${capital}</p>
